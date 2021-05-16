@@ -201,6 +201,7 @@ checksum = "60302e4db3a61da70c0cb7991976248362f30319e88850c487b9b95bbf059e00"
 [[package]]
 name = "ogg"
 version = "0.8.0"
+source = "git+https://github.com/TonalidadeHidrica/ogg?rev=59231be#59231beb20eed69da5aa085e1ecf51778323d564"
 dependencies = [
  "byteorder",
  "bytes",
