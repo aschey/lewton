@@ -29,12 +29,12 @@ required-features = ["ogg"]
 [dependencies]
 byteorder = "1.4"
 tinyvec = { version = "1.0", features = ["alloc"] }
-ogg = { git="https://github.com/TonalidadeHidrica/ogg", rev="59231be", optional = true }
+ogg = { git="https://github.com/aschey/ogg", rev="f994b6b", optional = true }
 tokio-io = { version = "0.1", optional = true }
 futures = { version = "0.1", optional = true }
 
 [dev-dependencies]
-ogg = { git="https://github.com/TonalidadeHidrica/ogg", rev="59231be" }
+ogg = { git="https://github.com/aschey/ogg", rev="f994b6b" }
 alto = "3"
 
 [package.metadata.docs.rs]
